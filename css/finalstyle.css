@@ -59,6 +59,13 @@ li a:hover {
     
 }
 
+.row {
+    margin-right:0px;
+    margin-left:0px;
+}
+
+
+
 /* Clear floats after the columns */
 .row:after {
     content: "";

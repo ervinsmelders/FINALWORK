@@ -5,11 +5,11 @@
     overflow: hidden;
     background-color: rgb(248, 245, 245);
 }
-li {
+.navjosla {
     float: right;
 }
 
-li a {
+.navjosla a {
     display: block;
     color: rgb(8, 8, 8);
     text-align: center;

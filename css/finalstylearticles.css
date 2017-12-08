@@ -1,0 +1,54 @@
+.topnav1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(248, 245, 245);
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(224, 219, 219);
+    color:rgb(247, 242, 242);
+}
+.image1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    height: 48px;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+
+.columninside{
+    float: left;
+    width: 80%;
+    padding: 1px;
+    height: 168px;
+    
+}
+.picturebox{
+    float: left;
+    width: 20%;
+    padding: 10px;  
+}
+
+.footer {
+    background-color: rgb(248, 245, 245);
+    text-align: left;
+    padding: 10px;
+}
+
+

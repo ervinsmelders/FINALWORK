@@ -56,7 +56,6 @@ li a:hover {
     grid-column-gap:20px;
     border: 1px solid;
     column-gap: 40px;
-    
 }
 
 /* Clear floats after the columns */

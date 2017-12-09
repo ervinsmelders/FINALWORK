@@ -39,6 +39,10 @@ li a:hover {
     height: 168px;
     
 }
+#articlescolour{
+    color: rgb(177, 171, 171)!important;
+}
+
 .picturebox{
     float: left;
     width: 20%;
@@ -50,5 +54,41 @@ li a:hover {
     text-align: left;
     padding: 10px;
 }
+.breadcrumb{
+    background-color: white!important;
+}
 
+/* .page
+{
+    width:960px;
+    margin: 0px auto;
+} */
 
+/* .list-of-posts
+{
+    min-height: 600px;
+} */
+
+.pagination li{
+    list-style: none;
+    float:left;
+    width:20px;
+    height:20px;
+    border:1px solid white;
+    background-color:blue;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+}
+.pagination li:hover
+{
+    background-color:white;
+    border:1px solid black;
+    color:black;
+
+}
+
+.pagination ul{
+    border:0px;
+    padding:0px;
+}

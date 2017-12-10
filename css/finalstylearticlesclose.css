@@ -47,3 +47,8 @@ img {
     border: 1px solid black!important;
     margin-bottom: 5px!important;
 }
+.footer {
+    background-color: rgb(248, 245, 245);
+    text-align: left;
+    padding: 10px;
+}

@@ -3,12 +3,12 @@
         <meta charset="utf-8">
         <title>Articles page</title>
         <link rel="stylesheet" href="css/finalstylearticlesclose.css">
-        <link rel="stylesheet" type="text/css" href="js/jquery.fancybox.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="js/paginate.js"></script>
-        <script src="js/jquery.fancybox.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
     </head>
     <body>
         <div>
@@ -33,29 +33,29 @@
                 <div class="col-sm-4">
                     <div class="row">
                         <div class="col-12">
-                            <img src="images/W3second3.png" align="left" style="margin-left:85px;margin-bottom: 5px;" id="bildeliela"/>
+                            <a data-fancybox="gallery" href="images/World3.png"><img src="images/W3second3.png" align="left" style="margin-left:85px;margin-bottom: 5px;" id="bildeliela"/></a>
                         </div>
                     </div>
                     <div class="row">
                             <div class="col-sm-4">
-                                <img src="images/W1second1.png" align="left"/>
+                                <a data-fancybox="gallery" href="images/World1.png"><img src="images/W1second1.png" align="left"/></a>
                             </div>
                             <div class="col-sm-4">
-                                <img src="images/W4second7.png" align="left"/>
+                                <a data-fancybox="gallery" href="images/World4.png"><img src="images/W4second7.png" align="left"/></a> 
                             </div>
                             <div class="col-sm-4">
-                                <img src="images/W1second8.png" align="left"/>
+                                <a data-fancybox="gallery" href="images/World5.png"><img src="images/W1second8.png" align="left"/></a> 
                             </div>   
                         </div>
                     <div class="row">
                             <div class="col-sm-4">
-                                <img src="images/W1second8.png" align="left"/>
+                                <a data-fancybox="gallery" href="images/World5.png"><img src="images/W1second8.png" align="left"/></a> 
                             </div>
                             <div class="col-sm-4">
-                                <img src="images/W1second1.png" align="left"/>
+                                <a data-fancybox="gallery" href="images/World1.png"><img src="images/W1second1.png" align="left"/></a>
                             </div>
                             <div class="col-sm-4">
-                                <img src="images/W4second7.png" align="left"/>
+                                <a data-fancybox="gallery" href="images/World4.png"><img src="images/W4second7.png" align="left"/></a> 
                             </div>
                         </div>
                         
@@ -67,6 +67,9 @@
                 </div>
             </div>  
         </div>
+        <div class="footer">
+                <h6>Copyright © AS 1995–2017. All rights reserved <h6>
+              </div>
     <script type="text/javascript">
         $(document).ready(function() {
             $(".fancybox").fancybox();

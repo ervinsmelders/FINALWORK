@@ -1,0 +1,211 @@
+.topnav1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(248, 245, 245);
+}
+.navjosla {
+    float: right;
+}
+
+.navjosla a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(224, 219, 219);
+    color:rgb(247, 242, 242);
+}
+.image1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    height: 48px;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+
+.columninside{
+    float: left;
+    width: 80%;
+    padding: 1px;
+    height: 168px;
+    
+}
+#articlescolour{
+    color: rgb(177, 171, 171)!important;
+}
+
+.picturebox{
+    float: left;
+    width: 20%;
+    padding: 10px;  
+}
+
+.footer {
+    background-color: rgb(248, 245, 245);
+    text-align: left;
+    padding: 10px;
+}
+.breadcrumb{
+    background-color: white!important;
+}
+
+/* .page
+{
+    width:960px;
+    margin: 0px auto;
+} */
+
+/* .list-of-posts
+{
+    min-height: 600px;
+} */
+
+.pagination li{
+    list-style: none;
+    float:left;
+    width:20px;
+    height:20px;
+    border:1px solid white;
+    background-color:blue;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+}
+.pagination li:hover
+{
+    background-color:white;
+    border:1px solid black;
+    color:black;
+
+}
+
+.pagination ul{
+    border:0px;
+    padding:0px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background:#F2F2F2;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#content{
+    border:1px solid #A9F5A9;
+    background:#FFF;
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    height:300px;
+    overflow:auto;
+    border-radius:3px;
+}
+#content p{
+    padding:1em;
+    margin: 1em;
+    background:#E6E6E6;
+    border:1px solid#BDBDBD;
+    border-radius:4px;
+}
+
+h1{
+    color:#01DF3A!important;
+    margin-top:9px;
+    text-align:center;
+    padding:1em;
+    font-size:31px;
+}
+
+#message{
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    overflow:auto;
+    padding: 0 0 0 3px;
+    color:#0000;
+}
+
+#message button{margin:1em 0 0 0; color:black!important}
+
+#message textarea{border:1px solid #A9F5A9; font-family: Tahoma;color:black!important}
+
+button{
+    border:none;
+    padding:6px;
+    text-decoration:none;
+    border-radius:4px;
+    background:#2EFE64;
+    color:white;
+    cursor: pointer;
+    
+}
+#form{
+        margin-top:10px;
+        margin-left:auto;
+        margin-right:auto;
+        width:300px;
+        overflow:auto;
+        padding: 0 0 0 3px;
+        color:#0000;
+        
+
+}
+.footer {
+    background-color: rgb(248, 245, 245);
+    text-align: left;
+    padding: 10px;
+}

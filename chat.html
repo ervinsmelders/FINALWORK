@@ -1,0 +1,56 @@
+<html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Chat</title>
+            <link rel="stylesheet" href="css/finalstylechat.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('button').click(function(){
+                        var message = $('#textinput').val()+": " + $('textarea').val();
+                        var old= $('#content').html();
+                        $('#content').html(old +'<p>' + message + '</p>');
+                    });
+                });
+    
+            </script>
+        
+        </head>
+        <body>
+            <div>
+                <nav class="navigation-bar">
+                  <ul class="topnav1">
+                    <img class="image1" style="float:left" src="images/Goal.png">
+                      <li class="navjosla"><a href="#aboutus">About us</a></li>
+                      <li class="navjosla"><a href="#register">Register</a></li>
+                      <li class="navjosla"><a id="articlescolour" href="#chat">Chat</a></li>
+                      <li class="navjosla"><a href="articles.html">Articles</a></li>
+                      <li class="navjosla"><a href="index.html">Home</a></li>
+                  </ul>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Chat</li>
+                  </ol>
+                  <h1>Lets chat!</h1> 
+                  <div id="content">
+                      <p><strong>Here's our chat data:</strong></p>
+                   </div>
+               <div id="form">
+                   <label class="col-md-4 control-label" for="textinput">Name:</label>  
+                   <div class="col-md-4">
+                   <input name="textinput" class="form-control input-md" id="textinput" type="text" placeholder="Name">   
+                   </div>
+               </div>
+                   <div id="message">
+                       <textarea rows ="2" cols ="34">Leave a comment!</textarea>
+                       <button>Send</button>
+                   </div>
+                <div class="footer">
+                    <h6>Copyright © AS 1995–2017. All rights reserved <h6>
+                </div>
+        </body>
+    </html>

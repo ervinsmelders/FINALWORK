@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Articles page</title>
+        <link rel="stylesheet" href="css/finalstyleregistration.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/paginate.js"></script>
+    </head>
+    <body>
+        <div>
+            <nav class="navigation-bar">
+              <ul class="topnav1">
+                <img class="image1" style="float:left" src="images/Goal.png">
+                  <li class="navjosla"><a href="#aboutus">About us</a></li>
+                  <li class="navjosla"><a href="#register">Register</a></li>
+                  <li class="navjosla"><a href="chat.html">Chat</a></li>
+                  <li class="navjosla"><a id="articlescolour" href="articles.html">Articles</a></li>
+                  <li class="navjosla"><a href="index.html">Home</a></li>
+              </ul>
+            </div>
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Articles</li>
+              </ol>
+            <div class="container">
+                <div class="row">
+                <form class="form-horizontal">
+            <fieldset style="height:490px;">
+            <legend>Register</legend>
+            
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Username">Username</label>  
+              <div class="col-md-5">
+              <input id="Username" name="Username" type="text" placeholder="" class="form-control input-md" required=""> 
+              </div>
+            </div>
+            
+            
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="passwordinput">Password</label>
+              <div class="col-md-5">
+                <input id="passwordinput" name="passwordinput" type="password" placeholder="min 8 characters" class="form-control input-md" required="" minlength="8">
+              </div>
+            </div>
+            
+            
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="confirm_password">Retype Password</label>
+              <div class="col-md-5">
+                <input id="confirm_password" name="confirm_password" type="password" placeholder="Re-type password" class="form-control input-md" required=""minlength="8"onkeyup="checkPass(); return false;">
+              </div>
+              <span id="confirmMessage" class="confirmMessage"></span>
+            </div>
+            
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Name">First Name</label>  
+                <div class="col-md-5">
+                <input id="Name" name="Name" type="text" placeholder="" class="form-control input-md" required=""> 
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Name">Last Name</label>  
+                <div class="col-md-5">
+                <input id="Name" name="Name" type="text" placeholder="" class="form-control input-md" required=""> 
+                </div>
+            </div>
+
+
+            <!-- Select Basic -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="country">Country</label>
+              <div class="col-md-5">
+                <select id="country" name="country" class="form-control">
+                  <option value="Latvia">Latvia</option>
+                  <option value="Estonia">Estonia</option>
+                  <option value="Lithuania">Lithuania</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+                <label style =" margin-left:490px"><input type="checkbox" name="terms" required=""> I agree with the <a href="#">Terms and Conditions</a>.</label>
+            </div>
+            
+            
+            
+            
+            
+            <!-- Prepended checkbox -->
+            <!-- <div class="form-group">
+              <label class="col-md-4 control-label" for="check_critiria">Check the box</label>
+              <div class="col-md-6">
+                <div class="input-group">
+                  <span class="input-group-addon">     
+                      <input type="checkbox">     
+                  </span>
+                  <input id="check_critiria" name="check_critiria" class="form-control" type="text" placeholder="I accept the criteria" required="">
+                </div>
+                
+              </div>
+            </div> -->
+            
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="submit"></label>
+              <div class="col-md-4">
+                <button id="submit" name="submit" class="btn btn-success">Submit</button>
+              </div>
+            </div>
+            
+            </fieldset>
+            </form>
+            </div>
+            </div>
+            
+            <div class="footer">
+                <h6>Copyright © AS 1995–2017. All rights reserved <h6>
+            </div>
+        <script src="js/password.js"></script>
+    </body>
+</html>

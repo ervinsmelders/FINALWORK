@@ -14,11 +14,13 @@ function checkPass()
         pass2.style.backgroundColor = goodColor;
         message.style.color = goodColor;
         message.innerHTML = "Passwords Match"
+        $('#submit').prop('disabled', false);
     }else{
         
       
         pass2.style.backgroundColor = badColor;
         message.style.color = badColor;
         message.innerHTML = "Passwords Do Not Match!"
+        $('#submit').prop('disabled', true);
     }
 } 
